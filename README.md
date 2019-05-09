@@ -8,3 +8,9 @@ SBT 1.X removes `Build` trait ,so this https://alvinalexander.com/scala/sbt-how-
 write your projects under project/xx.scala
 
 then reference xx.scala from build.sbt 
+
+# caveat
+
+plugins.sbt can not be replaced
+
+crossproject is not supported in sbt Autoplugin (you still need build.sbt)
